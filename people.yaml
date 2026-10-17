@@ -1,0 +1,111 @@
+# People whose talks, lectures, papers and posts are candidates.
+# era: foundational | current | both. Add freely; the daily run may propose additions in its issue.
+
+- name: Geoffrey Hinton
+  why: Backprop popularizer, Boltzmann machines, AlexNet co-author, dropout; 2024 Nobel in Physics. Now speaks on AI risk.
+  era: both
+  channels: [Coursera "Neural Networks for Machine Learning" (2012, on YouTube), Nobel lecture 2024, Romanes Lecture Oxford 2024]
+- name: Yann LeCun
+  why: Convolutional networks, LeNet; Turing Award 2018. Outspoken on LLM limits, world models, JEPA.
+  era: both
+  channels: [NYU Deep Learning course (Canziani/LeCun), Lex Fridman podcast, conference keynotes]
+- name: Yoshua Bengio
+  why: Neural language models (2003), attention with Bahdanau, GANs lab; Turing Award 2018. Now AI safety.
+  era: both
+  channels: [Mila talks, yoshuabengio.org blog]
+- name: Andrew Ng
+  why: Google Brain co-founder, Coursera, popularized ML education at scale.
+  era: both
+  channels: [Stanford CS229 lectures, DeepLearning.AI, The Batch newsletter]
+- name: Fei-Fei Li
+  why: ImageNet, which enabled the 2012 deep learning breakthrough; Stanford HAI; World Labs (spatial intelligence).
+  era: both
+  channels: [Stanford CS231n, TED talks, HAI events]
+- name: Jeff Dean
+  why: Google Brain, DistBelief, TensorFlow, TPUs, Gemini.
+  era: both
+  channels: [university colloquia (Princeton CS Feb 2026), Google talks]
+- name: Richard Sutton
+  why: Reinforcement learning (TD learning), "The Bitter Lesson"; Turing Award 2024.
+  era: both
+  channels: [incompleteideas.net, RL textbook (free online), talks]
+- name: Andrew Barto
+  why: RL co-founder with Sutton; Turing Award 2024.
+  era: foundational
+  channels: [RL textbook, talks]
+- name: Jürgen Schmidhuber
+  why: LSTM (with Hochreiter), early deep learning history.
+  era: foundational
+  channels: [people.idsia.ch/~juergen blog, talks]
+- name: Sepp Hochreiter
+  why: LSTM, vanishing gradient analysis; xLSTM; based in Linz (Austrian link).
+  era: both
+  channels: [JKU Linz talks, NXAI]
+- name: Ilya Sutskever
+  why: AlexNet, seq2seq, OpenAI co-founder; SSI.
+  era: both
+  channels: [NeurIPS 2024 test-of-time talk, interviews]
+- name: Andrej Karpathy
+  why: CS231n, Tesla AI, OpenAI; best-known educator for building LLMs from scratch.
+  era: current
+  channels: [YouTube "Neural Networks: Zero to Hero", karpathy.github.io, karpathy.bearblog.dev]
+- name: Demis Hassabis
+  why: DeepMind, AlphaGo, AlphaFold; 2024 Nobel in Chemistry.
+  era: both
+  channels: [Nobel lecture, interviews, keynotes]
+- name: John Jumper
+  why: AlphaFold lead; 2024 Nobel in Chemistry.
+  era: current
+  channels: [Nobel lecture, talks]
+- name: Ashish Vaswani
+  why: First author of "Attention Is All You Need" (2017).
+  era: both
+  channels: [Stanford CS25 talks]
+- name: Chris Olah
+  why: Interpretability, distill.pub, classic explainer posts (LSTMs).
+  era: both
+  channels: [colah.github.io, transformer-circuits.pub, podcasts]
+- name: Lilian Weng
+  why: Long-form technical blog posts on agents, diffusion, RLHF etc.
+  era: current
+  channels: [lilianweng.github.io]
+- name: Dario Amodei
+  why: Scaling laws work at OpenAI, Anthropic CEO; "Machines of Loving Grace" essay.
+  era: current
+  channels: [darioamodei.com, interviews]
+- name: Percy Liang
+  why: Stanford CRFM, foundation models report, HELM evaluation.
+  era: current
+  channels: [Stanford CS324 / CS336, talks]
+- name: Christopher Manning
+  why: NLP pioneer, Stanford CS224n.
+  era: both
+  channels: [Stanford CS224n lectures on YouTube]
+- name: Melanie Mitchell
+  why: Complexity researcher, critical and clear on what AI can and can't do.
+  era: current
+  channels: [aiguide.substack.com, talks]
+- name: Gary Marcus
+  why: Prominent critic of pure deep learning approaches.
+  era: current
+  channels: [garymarcus.substack.com, debates]
+- name: Judea Pearl
+  why: Bayesian networks, causality; Turing Award 2011.
+  era: foundational
+  channels: [The Book of Why, lectures]
+- name: Noam Shazeer
+  why: Transformer co-author, mixture of experts, Character.AI, Gemini.
+  era: current
+  channels: [interviews, Dwarkesh podcast with Jeff Dean]
+- name: Kaiming He
+  why: ResNet (2015), now MIT; most cited deep learning paper.
+  era: both
+  channels: [MIT lectures, CVPR talks]
+- name: Alec Radford
+  why: GPT, GPT-2, CLIP, Whisper first author.
+  era: current
+  channels: [papers]
+- name: Grant Sanderson (3Blue1Brown)
+  why: Not a researcher, but the best visual explainer of neural nets and transformers; strong education angle.
+  era: current
+  channels: [YouTube neural networks series]

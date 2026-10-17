@@ -1,0 +1,95 @@
+# Candidate pieces. The daily run adds, verifies and picks from these.
+# status: candidate -> picked (issue opened) -> posted | skipped
+# verified: true once the URL was fetched and confirmed to match title/speaker.
+# Fields for picked items: picked_on, issue, timestamp, quote; for posted: posted_on, posted_text.
+
+- id: karpathy-lets-build-gpt
+  title: "Let's build GPT: from scratch, in code, spelled out."
+  people: [Andrej Karpathy]
+  format: video
+  date: 2023-01-17
+  era: current
+  url: https://www.youtube.com/watch?v=kCc8FmEb1nY
+  verified: false
+  status: candidate
+- id: karpathy-intro-to-llms
+  title: "[1hr Talk] Intro to Large Language Models"
+  people: [Andrej Karpathy]
+  format: video
+  date: 2023-11-22
+  era: current
+  url: https://www.youtube.com/watch?v=zjkBMFhNj_g
+  verified: false
+  status: candidate
+- id: sutton-bitter-lesson
+  title: The Bitter Lesson
+  people: [Richard Sutton]
+  format: essay
+  date: 2019-03-13
+  era: foundational
+  url: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+  verified: false
+  status: candidate
+- id: vaswani-attention-paper
+  title: Attention Is All You Need
+  people: [Ashish Vaswani, Noam Shazeer]
+  format: paper
+  date: 2017-06-12
+  era: foundational
+  url: https://arxiv.org/abs/1706.03762
+  verified: false
+  status: candidate
+- id: olah-understanding-lstms
+  title: Understanding LSTM Networks
+  people: [Chris Olah]
+  format: blog
+  date: 2015-08-27
+  era: foundational
+  url: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+  verified: false
+  status: candidate
+- id: weng-llm-agents
+  title: LLM Powered Autonomous Agents
+  people: [Lilian Weng]
+  format: blog
+  date: 2023-06-23
+  era: current
+  url: https://lilianweng.github.io/posts/2023-06-23-agent/
+  verified: false
+  status: candidate
+- id: amodei-machines-of-loving-grace
+  title: "Machines of Loving Grace"
+  people: [Dario Amodei]
+  format: essay
+  date: 2024-10-01
+  era: current
+  url: https://darioamodei.com/machines-of-loving-grace
+  verified: false
+  status: candidate
+- id: 3b1b-neural-networks
+  title: "But what is a neural network? | Deep learning chapter 1"
+  people: [Grant Sanderson (3Blue1Brown)]
+  format: video
+  date: 2017-10-05
+  era: foundational
+  url: https://www.youtube.com/watch?v=aircAruvnKk
+  verified: false
+  status: candidate
+- id: krizhevsky-alexnet-paper
+  title: ImageNet Classification with Deep Convolutional Neural Networks
+  people: [Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton]
+  format: paper
+  date: 2012-12-03
+  era: foundational
+  url: https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+  verified: false
+  status: candidate
+- id: dean-princeton-2026
+  title: "Distinguished Colloquium: Jeff Dean, Important Trends in AI: How Did We Get Here, What Can We Do Now, and Where are We Headed?"
+  people: [Jeff Dean]
+  format: video
+  date: 2026-02-10
+  era: current
+  url: null  # Martin saw it on YouTube via @princetonuniversitycs; find the video URL
+  verified: false
+  status: candidate

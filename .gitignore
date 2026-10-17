@@ -1,0 +1,4 @@
+# Private voice corpus, never commit
+voice-sample.md
+.DS_Store
+tmp/
