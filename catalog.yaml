@@ -158,5 +158,86 @@
   date: 2025-11-10
   era: current
   url: https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence
-  verified: false
+  verified: true
+  status: picked
+  picked_on: 2026-10-17
+  timestamp: "Spatial Intelligence: The scaffolding of human cognition, paragraphs from \"Unfortunately, today's AI doesn't think like this yet.\""
+  quote: "Yet the candid truth is that AI’s spatial capabilities remain far from human level. And the limits reveal themselves quickly."
+  issue: 3
+- id: turing-computing-machinery-1950
+  title: Computing Machinery and Intelligence
+  people: [Alan Turing]
+  format: paper
+  date: 1950-10-01
+  era: foundational
+  url: https://courses.cs.umbc.edu/471/papers/turing.pdf
+  verified: true
+  note: "Free PDF copy hosted by UMBC; original in Mind 59(236). PDF header misprints the volume as 49."
+  status: candidate
+- id: dartmouth-proposal-1955
+  title: A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence
+  people: [John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon]
+  format: paper
+  date: 1955-08-31
+  era: foundational
+  url: http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf
+  verified: true
+  status: candidate
+- id: karpathy-rnn-effectiveness
+  title: The Unreasonable Effectiveness of Recurrent Neural Networks
+  people: [Andrej Karpathy]
+  format: blog
+  date: 2015-05-21
+  era: foundational
+  url: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+  verified: true
+  status: candidate
+- id: kaplan-scaling-laws
+  title: Scaling Laws for Neural Language Models
+  people: [Jared Kaplan, Sam McCandlish, Dario Amodei]
+  format: paper
+  date: 2020-01-23
+  era: foundational
+  url: https://arxiv.org/abs/2001.08361
+  verified: true
+  status: candidate
+- id: dwarkesh-sutton-2025
+  title: "Richard Sutton – Father of RL thinks LLMs are a dead end"
+  people: [Richard Sutton]
+  format: podcast
+  date: 2025-09-26
+  era: current
+  url: https://www.dwarkesh.com/p/richard-sutton
+  verified: true
+  note: "Dwarkesh Podcast; page has a full transcript."
+  status: candidate
+- id: dwarkesh-karpathy-2025
+  title: "Andrej Karpathy — AGI is still a decade away"
+  people: [Andrej Karpathy]
+  format: podcast
+  date: 2025-10-17
+  era: current
+  url: https://www.dwarkesh.com/p/andrej-karpathy
+  verified: true
+  note: "Dwarkesh Podcast; page has a full transcript."
+  status: candidate
+- id: silver-sutton-era-of-experience
+  title: Welcome to the Era of Experience
+  people: [David Silver, Richard Sutton]
+  format: paper
+  date: 2025-04-01
+  era: current
+  url: https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf
+  verified: true
+  note: "Title and authors confirmed from PDF; publication date (April 2025) not printed in the PDF, from memory."
+  status: candidate
+- id: anthropic-tracing-thoughts
+  title: Tracing the thoughts of a large language model
+  people: [Anthropic interpretability team]
+  format: blog
+  date: 2025-03-27
+  era: current
+  url: https://www.anthropic.com/research/tracing-thoughts-language-model
+  verified: true
+  note: "Summary post for the 'circuit tracing' / 'biology of an LLM' papers on transformer-circuits.pub; check named authors before crediting a person."
   status: candidate
