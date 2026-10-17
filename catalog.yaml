@@ -92,8 +92,11 @@
   era: current
   url: https://www.youtube.com/watch?v=UTTeXZrpMR0
   verified: true
-  status: picked
+  status: posted
   picked_on: 2026-10-17
   timestamp: "06:26"
   quote: "So I saw these as an undergrad in 1990 and I got super excited and I said, 'Oh wow, that seems like a really good abstraction. It feels like it's a trainable thing and it can learn almost anything.'"
   issue: 1
+  posted_on: 2026-10-17
+  posted_text: "Jeff Dean (ex-chief-scientist at Google) apparently tried in his undergrad thesis (1990) what's now called model parallel training, to get more out of neural nets. His speedups tapered off because he kept the model the same size: https://www.youtube.com/watch?v=UTTeXZrpMR0&t=386s A chance meeting with Andrew Ng 25 years later brought the idea back and ~led to Google Brain."
+  feedback: "None of the drafts liked; too cute. Posted own plain retelling."

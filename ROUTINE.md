@@ -1,16 +1,21 @@
 # Daily pick routine
 
+**GitHub access:** in cloud runs `gh` may not be authenticated. Use the built-in GitHub tools (e.g. `mcp__github__*`, load via ToolSearch) to list, read, comment on, create and close issues. Push with plain `git`.
+
+**Manual / off-schedule runs:** if this run was started manually (any day, including weekends) still produce a pick. If `picks/<today>.md` already exists, use `picks/<today>-b.md` (then `-c`, ...).
+
 Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Martin posts around 15:00 to 16:00 Vienna time (US East Coast morning).
 
 ## 1. Read feedback
 
-- Read `voice.md` and `catalog.yaml`.
+- Read `voice.md` (especially "Posted examples") and `catalog.yaml`.
 - List recent issues labeled `daily-pick` (`gh issue list --label daily-pick --state all --limit 10`) and read comments on any you haven't processed.
 - Apply feedback in `catalog.yaml`:
   - "posted" (optionally with final text, or "posted A/B/C"): set `status: posted`, `posted_on`, and `posted_text` (Martin's final text if given, otherwise the chosen variant).
   - "skip" or reasons against: set `status: skipped` and note the reason.
   - Style corrections: propose a dated line for "Additions from review rounds" in `voice.md` in today's issue. Don't edit `voice.md` without approval, unless Martin's comment says to add it.
-- Close processed issues older than today.
+  - Whenever Martin shares his posted text, add it to "Posted examples" in `voice.md` (that counts as approved). Note briefly what differed from the drafts.
+  - Reply on the issue with a one-line comment saying what you recorded, then close it.
 
 ## 2. Keep the catalog healthy
 
@@ -32,7 +37,7 @@ Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Mart
 
 ## 4. Draft
 
-Write 2 to 3 variants with different angles (see `voice.md`): e.g. one-liner, question, educator's take, then-vs-now. Each variant:
+Write 2 to 3 variants (see `voice.md`). Variant A is always the plain retelling modeled on the posted examples; B and C try other angles (question, then-vs-now) in the same plain register. Each variant:
 - Is short (most under 300 characters, at most one longer take).
 - Names the person and includes the deep link in the body.
 - Follows every rule in `voice.md`, including no em dashes and no hype.

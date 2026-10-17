@@ -1,6 +1,6 @@
 ---
 name: Voice guide - Martin's LinkedIn posts for ai-syllabus
-last_updated: 2026-10-17
+last_updated: 2026-10-17 (after first review)
 status: living guide; propose changes in the daily issue, add only with Martin's approval
 ---
 
@@ -16,14 +16,16 @@ Martin Breuss is Head of Content Strategy at Real Python and works in programmin
 
 ## How Martin's posts sound
 
-- **Short.** Most of his posts are 1 to 4 lines. A few sentences plus the link is the default. Longer only when a variant is explicitly the "longer take".
+- **Plain retelling first.** For shared content, his default is a short, factual mini-story: who the person is, what they did or said, what happened, then the link, then one sentence on where it led. Two to four sentences, roughly 250 to 400 characters. See the posted examples below; they outrank everything else in this section.
+- **Introduce the person for a broad audience.** A short role in parentheses, e.g. "Jeff Dean (ex-chief-scientist at Google)". Don't assume readers know who someone is.
+- **Report, don't perform.** "apparently", "~led to": light hedges on secondhand facts instead of confident punchlines. No "Fun detail", "What I like about this", "Kind of X in miniature" framing.
 - **Observation first, then a small thought or question.** "Meta's Muse models seem to have a certain idea what a turtle-drawn snake should look like..." states what he noticed and lets it land.
 - **Genuine questions.** He often ends with a real question he's curious about ("genuinely curious, if someone remembers where that came from"). Not engagement bait like "Agree? 👇".
-- **Curious and a bit playful.** Parenthetical asides, occasional self-aware humor ("whether nested parentheses is a bad enough writing style to prove humanity of a post"). Use sparingly, at most one per post.
+- **Playfulness is his, not the draft's.** His own non-sharing posts have parentheses humor, but for shared content keep drafts plain. He'll add jokes himself.
 - **Understated enthusiasm.** "Nice to hear X talk about...", "Fun to...", "Yay". No "game-changer", "mind-blowing", "must-watch", "🚀".
 - **Comfortable with uncertainty.** "I'd say", "based on vibes only", "not sure". Fine where real, not in every sentence.
 - **Education lens.** He cares about how things are explained and learned ("didactically well thought-out"). A note on *how* a researcher explains something is a natural angle.
-- **Emoji:** zero or one, and only from his range (🤔 😂 🤷‍♂️). Hashtags: none by default; at most two if specific (e.g. a conference tag).
+- **Emoji:** none by default in drafts. Hashtags: none by default; at most two if specific (e.g. a conference tag).
 
 ## Rules
 
@@ -37,21 +39,20 @@ Martin Breuss is Head of Content Strategy at Real Python and works in programmin
 
 ## Variant angles (pick 2 to 3 per day)
 
-- **One-liner:** an observation plus the link. Closest to his natural style.
+- **Plain retelling (always include this one, as variant A):** the mini-story format described above. Closest to what he actually posts.
+- **Telegraphic one-liners** ("Jeff Dean in 1990: does X, does Y. Then Z.") were rejected; avoid fragment-style hooks.
 - **Question:** the excerpt prompts a real question to his network.
 - **Educator's take:** what this teaches, or how well it's explained, in 2 to 4 sentences.
 - **Then vs. now:** for older material, connect it to today in one sentence.
 
-## Calibration examples
+## Posted examples (ground truth)
 
-These are style directions, not approved copy. Timestamps and details in them are illustrative, not facts to reuse.
+2026-10-17, Jeff Dean, Princeton colloquium. Drafts were "fun detail ... 🤔", a fragment-style one-liner and an "educator's take"; Martin liked none and posted:
 
-| Instead of | Try this direction |
-|---|---|
-| "🚀 Jeff Dean just dropped an incredible masterclass on the future of AI! Here are 5 takeaways 🧵" | "Jeff Dean walking through 15 years of AI in about an hour. The bit on why TPUs happened (around 21:40) was new to me: <link>" |
-| "This 2012 lecture is a must-watch for anyone in AI." | "Geoffrey Hinton in 2012 explaining dropout as 'preventing co-adaptation'. Funny how much of today's toolbox was already on those slides <link>" |
-| "Agree? Comment below 👇" | "How do you explain attention to people who are new to it? I keep looking for a better analogy 🤔" |
+> Jeff Dean (ex-chief-scientist at Google) apparently tried in his undergrad thesis (1990) what's now called model parallel training, to get more out of neural nets. His speedups tapered off because he kept the model the same size: https://www.youtube.com/watch?v=UTTeXZrpMR0&t=386s A chance meeting with Andrew Ng 25 years later brought the idea back and ~led to Google Brain.
 
 ## Additions from review rounds
+
+- 2026-10-17: Drafts were too cute and punchy. Default to a plain, factual retelling with a role intro for the person, light hedging, link inline, one closing sentence on consequences. No emoji, no meta framing about why the bit is "fun" or what Martin "likes".
 
 <!-- Add learned patterns here, dated, after Martin approves them. -->
