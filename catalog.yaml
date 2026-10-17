@@ -90,6 +90,10 @@
   format: video
   date: 2026-02-10
   era: current
-  url: null  # Martin saw it on YouTube via @princetonuniversitycs; find the video URL
-  verified: false
-  status: candidate
+  url: https://www.youtube.com/watch?v=UTTeXZrpMR0
+  verified: true
+  status: picked
+  picked_on: 2026-10-17
+  timestamp: "06:26"
+  quote: "So I saw these as an undergrad in 1990 and I got super excited and I said, 'Oh wow, that seems like a really good abstraction. It feels like it's a trainable thing and it can learn almost anything.'"
+  issue: 1
