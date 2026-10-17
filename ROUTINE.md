@@ -38,7 +38,7 @@ Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Mart
 ## 4. Draft
 
 Write 2 to 3 variants (see `voice.md`). Variant A is always the plain retelling modeled on the posted examples; B and C try other angles (question, then-vs-now) in the same plain register. Each variant:
-- Is short (most under 300 characters, at most one longer take).
+- Is roughly 250 to 400 characters, like the posted examples.
 - Names the person and includes the deep link in the body.
 - Follows every rule in `voice.md`, including no em dashes and no hype.
 
