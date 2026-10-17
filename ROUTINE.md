@@ -8,7 +8,7 @@ Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Mart
 
 ## 1. Read feedback
 
-- Read `voice.md` (especially "Posted examples") and `catalog.yaml`.
+- Read `voice.md` and `catalog.yaml`.
 - List recent issues labeled `daily-pick` (`gh issue list --label daily-pick --state all --limit 10`) and read comments on any you haven't processed.
 - Apply feedback in `catalog.yaml`:
   - "posted" (optionally with final text, or "posted A/B/C"): set `status: posted`, `posted_on`, and `posted_text` (Martin's final text if given, otherwise the chosen variant).
@@ -37,8 +37,7 @@ Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Mart
 
 ## 4. Draft
 
-Write 2 to 3 variants (see `voice.md`). Variant A is always the plain retelling modeled on the posted examples; B and C try other angles (question, then-vs-now) in the same plain register. Each variant:
-- Is roughly 250 to 400 characters, like the posted examples.
+Write 2 to 3 variants (see `voice.md`) that are clearly different from each other in angle, structure and length (e.g. short, medium, longer). Each variant:
 - Names the person and includes the deep link in the body.
 - Follows every rule in `voice.md`, including no em dashes and no hype.
 

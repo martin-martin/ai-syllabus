@@ -16,16 +16,16 @@ Martin Breuss is Head of Content Strategy at Real Python and works in programmin
 
 ## How Martin's posts sound
 
-- **Plain retelling first.** For shared content, his default is a short, factual mini-story: who the person is, what they did or said, what happened, then the link, then one sentence on where it led. Two to four sentences, roughly 250 to 400 characters. See the posted examples below; they outrank everything else in this section.
+- **No fixed format.** Martin is experimenting. Posts can be one line or several paragraphs, a story, a question, a reflection, a teaching note. Posted examples show what worked once, not a template to copy.
 - **Introduce the person for a broad audience.** A short role in parentheses, e.g. "Jeff Dean (ex-chief-scientist at Google)". Don't assume readers know who someone is.
 - **Report, don't perform.** "apparently", "~led to": light hedges on secondhand facts instead of confident punchlines. No "Fun detail", "What I like about this", "Kind of X in miniature" framing.
 - **Observation first, then a small thought or question.** "Meta's Muse models seem to have a certain idea what a turtle-drawn snake should look like..." states what he noticed and lets it land.
 - **Genuine questions.** He often ends with a real question he's curious about ("genuinely curious, if someone remembers where that came from"). Not engagement bait like "Agree? 👇".
-- **Playfulness is his, not the draft's.** His own non-sharing posts have parentheses humor, but for shared content keep drafts plain. He'll add jokes himself.
+- **Playfulness in moderation.** Parenthetical asides and dry humor are part of his voice. Avoid forced cuteness ("Fun detail:", "Kind of X in miniature 🤔").
 - **Understated enthusiasm.** "Nice to hear X talk about...", "Fun to...", "Yay". No "game-changer", "mind-blowing", "must-watch", "🚀".
 - **Comfortable with uncertainty.** "I'd say", "based on vibes only", "not sure". Fine where real, not in every sentence.
 - **Education lens.** He cares about how things are explained and learned ("didactically well thought-out"). A note on *how* a researcher explains something is a natural angle.
-- **Emoji:** none by default in drafts. Hashtags: none by default; at most two if specific (e.g. a conference tag).
+- **Emoji:** rarely; zero in most drafts. Hashtags: none by default; at most two if specific (e.g. a conference tag).
 
 ## Rules
 
@@ -37,22 +37,30 @@ Martin Breuss is Head of Content Strategy at Real Python and works in programmin
 - Don't invent opinions for him on controversial claims. Pose the question instead.
 - English, US-leaning spelling. Link goes in the post body.
 
-## Variant angles (pick 2 to 3 per day)
+## Variants (2 to 3 per day)
 
-- **Plain retelling (always include this one, as variant A):** the mini-story format described above. Closest to what he actually posts.
-- **Telegraphic one-liners** ("Jeff Dean in 1990: does X, does Y. Then Z.") were rejected; avoid fragment-style hooks.
-- **Question:** the excerpt prompts a real question to his network.
-- **Educator's take:** what this teaches, or how well it's explained, in 2 to 4 sentences.
-- **Then vs. now:** for older material, connect it to today in one sentence.
+Make the variants genuinely different from each other: different angle, structure **and** length. For example one short (1 to 2 sentences), one medium, one longer (a few short paragraphs). Possible angles, mix freely and invent others:
 
-## Posted examples (ground truth)
+- A plain factual retelling of what happened or what was said.
+- A real question to his network that the excerpt raises.
+- An educator's angle: how this is explained, what it teaches, how he'd use it.
+- Then vs. now: what an older piece predicted or missed, seen from today.
+- A personal reflection: what this made him think about (framed as a draft for him to fill in, never inventing experiences).
+- A short quote-led post: the verified quote plus one line of context.
 
-2026-10-17, Jeff Dean, Princeton colloquium. Drafts were "fun detail ... 🤔", a fragment-style one-liner and an "educator's take"; Martin liked none and posted:
+Avoid: fragment-style hooks ("Jeff Dean in 1990: does X. Then Y."), meta framing ("What I like about this..."), all three variants having the same shape.
+
+## Posted examples
+
+Real posts, for tone and register. Learn from them, don't copy their structure.
+
+2026-10-17, Jeff Dean, Princeton colloquium. Drafts were "fun detail ... 🤔", a fragment-style one-liner and an "educator's take"; Martin posted:
 
 > Jeff Dean (ex-chief-scientist at Google) apparently tried in his undergrad thesis (1990) what's now called model parallel training, to get more out of neural nets. His speedups tapered off because he kept the model the same size: https://www.youtube.com/watch?v=UTTeXZrpMR0&t=386s A chance meeting with Andrew Ng 25 years later brought the idea back and ~led to Google Brain.
 
 ## Additions from review rounds
 
-- 2026-10-17: Drafts were too cute and punchy. Default to a plain, factual retelling with a role intro for the person, light hedging, link inline, one closing sentence on consequences. No emoji, no meta framing about why the bit is "fun" or what Martin "likes".
+- 2026-10-17: First drafts were too cute and punchy (forced "fun detail", emoji, fragment hooks). Martin posted a plain retelling instead, but that was right for that piece, not a fixed format.
+- 2026-10-17: Variants must differ clearly from each other, including in length. Longer posts are welcome. Don't over-fit to a single posted example.
 
 <!-- Add learned patterns here, dated, after Martin approves them. -->
