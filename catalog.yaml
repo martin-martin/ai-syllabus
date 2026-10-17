@@ -46,8 +46,13 @@
   date: 2015-08-27
   era: foundational
   url: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
-  verified: false
-  status: candidate
+  verified: true
+  verified_note: "Checked via site source on GitHub (colah/colah.github.io master); live site blocked from cloud run."
+  status: picked
+  picked_on: 2026-10-17
+  timestamp: "#conclusion"
+  issue: 2
+  quote: "LSTMs were a big step in what we can accomplish with RNNs. It's natural to wonder: is there another big step? A common opinion among researchers is: \"Yes! There is a next step and it's attention!\""
 - id: weng-llm-agents
   title: LLM Powered Autonomous Agents
   people: [Lilian Weng]
@@ -100,3 +105,58 @@
   posted_on: 2026-10-17
   posted_text: "Jeff Dean (ex-chief-scientist at Google) apparently tried in his undergrad thesis (1990) what's now called model parallel training, to get more out of neural nets. His speedups tapered off because he kept the model the same size: https://www.youtube.com/watch?v=UTTeXZrpMR0&t=386s A chance meeting with Andrew Ng 25 years later brought the idea back and ~led to Google Brain."
   feedback: "None of the drafts liked; too cute. Posted own plain retelling."
+- id: hinton-nobel-lecture-2024
+  title: "Nobel Lecture: Boltzmann Machines"
+  people: [Geoffrey Hinton]
+  format: lecture
+  date: 2024-12-08
+  era: foundational
+  url: https://www.nobelprize.org/prizes/physics/2024/hinton/lecture/
+  verified: false
+  status: candidate
+- id: bengio-neural-probabilistic-lm
+  title: A Neural Probabilistic Language Model
+  people: [Yoshua Bengio, Réjean Ducharme, Pascal Vincent, Christian Jauvin]
+  format: paper
+  date: 2003-02-01
+  era: foundational
+  url: https://www.jmlr.org/papers/v3/bengio03a.html
+  verified: false
+  status: candidate
+- id: hochreiter-schmidhuber-lstm-paper
+  title: Long Short-Term Memory
+  people: [Sepp Hochreiter, Jürgen Schmidhuber]
+  format: paper
+  date: 1997-11-15
+  era: foundational
+  url: https://www.bioinf.jku.at/publications/older/2604.pdf
+  verified: false
+  status: candidate
+- id: sutskever-neurips-2024-tot
+  title: "Sequence to sequence learning with neural networks: what a decade (NeurIPS 2024 Test of Time talk)"
+  people: [Ilya Sutskever]
+  format: talk
+  date: 2024-12-13
+  era: current
+  url: https://neurips.cc/virtual/2024/test-of-time/105032
+  verified: false
+  status: candidate
+- id: karpathy-software-changing-again
+  title: "Software Is Changing (Again)"
+  people: [Andrej Karpathy]
+  format: video
+  date: 2025-06-17
+  era: current
+  url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
+  verified: false
+  note: "YC AI Startup School keynote; YouTube ID from memory, verify."
+  status: candidate
+- id: feifei-li-words-to-worlds
+  title: "From Words to Worlds: Spatial Intelligence is AI's Next Frontier"
+  people: [Fei-Fei Li]
+  format: essay
+  date: 2025-11-10
+  era: current
+  url: https://drfeifei.substack.com/p/from-words-to-worlds-spatial-intelligence
+  verified: false
+  status: candidate
