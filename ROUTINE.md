@@ -1,6 +1,6 @@
 # Daily pick routine
 
-**GitHub access:** in cloud runs `gh` may not be authenticated. Use the built-in GitHub tools (e.g. `mcp__github__*`, load via ToolSearch) to list, read, comment on, create and close issues. Push with plain `git`.
+**GitHub access:** `gh` is not authenticated in cloud runs, don't use it. Use the built-in GitHub tools (`mcp__github__*`, load via ToolSearch: e.g. `list_issues`, `issue_read`, `issue_write`, `add_issue_comment`) for all issue work. When creating an issue, pass the actual file content as the body, not a shell expression. Commit and push with plain `git` to `main` (if HEAD is detached, `git push origin HEAD:main`).
 
 **Manual / off-schedule runs:** if this run was started manually (any day, including weekends) still produce a pick. If `picks/<today>.md` already exists, use `picks/<today>-b.md` (then `-c`, ...).
 
@@ -9,7 +9,7 @@ Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Mart
 ## 1. Read feedback
 
 - Read `voice.md` and `catalog.yaml`.
-- List recent issues labeled `daily-pick` (`gh issue list --label daily-pick --state all --limit 10`) and read comments on any you haven't processed.
+- List recent issues labeled `daily-pick` (state all, last 10) and read comments on any you haven't processed.
 - Apply feedback in `catalog.yaml`:
   - "posted" (optionally with final text, or "posted A/B/C"): set `status: posted`, `posted_on`, and `posted_text` (Martin's final text if given, otherwise the chosen variant).
   - "skip" or reasons against: set `status: skipped` and note the reason.
