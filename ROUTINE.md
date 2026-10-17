@@ -27,10 +27,12 @@ Instructions for the scheduled Claude run (weekdays, ~12:00 Europe/Vienna). Mart
 
 ## 3. Pick one
 
+- Prefer candidates whose full text or transcript is available (papers, posts, podcast pages with transcripts, prefetched YouTube transcripts).
 - Choose a `candidate` that differs from the last 5 picks in person and format, and alternates eras.
 - Verify it: fetch the URL and confirm the title, speaker and date. Set `verified: true`. If the URL is dead or wrong, fix it or mark it skipped and pick another.
 - Get the actual content:
-  - YouTube: `uvx yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs en --sub-format vtt -o "tmp/%(id)s" <url>`, then read the `.vtt`.
+  - YouTube: YouTube blocks cloud downloads. Read the prefetched transcript from the private repo `martin-martin/ai-syllabus-transcripts` (cloned next to this repo, or fetch `youtube/<video_id>.txt` via the GitHub tools). Format: `[hh:mm:ss] text` lines. Martin's Mac fills it on weekdays at 17:30 Vienna for every YouTube URL in `catalog.yaml`, so newly added videos become usable the next day. Never commit transcripts to this public repo.
+  - If no transcript exists for a video, prefer another candidate. Pick a video without transcript only if it's clearly the best choice, then use its chapters/description and mark the quote unverified.
   - Papers and posts: fetch the page or PDF text.
 - Select one section worth 2 to 5 minutes (or a few paragraphs): a clear explanation, a surprising claim, a historical insight. For video, record the start timestamp and build a deep link (`&t=<seconds>s` or `?t=` for youtu.be).
 - Extract a short verbatim quote (1 to 3 sentences) from that section. **Quote only text present in the transcript or source.** If no transcript is obtainable, say so in the issue, give the best section guess from chapters or description, and mark the quote as unverified. Never invent one.

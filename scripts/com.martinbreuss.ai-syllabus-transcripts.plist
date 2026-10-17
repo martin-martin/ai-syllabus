@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Weekdays 17:30 local time; launchd runs a missed job on wake. Install: see README. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.martinbreuss.ai-syllabus-transcripts</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/martin/.local/bin/uv</string>
+    <string>run</string>
+    <string>--no-project</string>
+    <string>/Users/martin/Documents/projects/linkedin/share-ai/scripts/fetch_transcripts.py</string>
+    <string>/Users/martin/Documents/projects/linkedin/ai-syllabus-transcripts</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/martin/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>17</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>17</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>17</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>17</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>17</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>/Users/martin/Library/Logs/ai-syllabus-transcripts.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/martin/Library/Logs/ai-syllabus-transcripts.log</string>
+</dict>
+</plist>
