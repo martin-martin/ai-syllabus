@@ -173,7 +173,11 @@
   url: https://courses.cs.umbc.edu/471/papers/turing.pdf
   verified: true
   note: "Free PDF copy hosted by UMBC; original in Mind 59(236). PDF header misprints the volume as 49."
-  status: candidate
+  status: picked
+  picked_on: 2026-10-17
+  timestamp: "Section 7, Learning Machines (PDF p. 19, #page=19)"
+  quote: "Instead of trying to produce a programme to simulate the adult mind, why not rather try to produce one which simulates the child's? If this were then subjected to an appropriate course of education one would obtain the adult brain."
+  issue: 4
 - id: dartmouth-proposal-1955
   title: A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence
   people: [John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon]
