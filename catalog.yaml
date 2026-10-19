@@ -48,11 +48,14 @@
   url: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
   verified: true
   verified_note: "Checked via site source on GitHub (colah/colah.github.io master); live site blocked from cloud run."
-  status: picked
+  status: posted
   picked_on: 2026-10-17
   timestamp: "#conclusion"
   issue: 2
   quote: "LSTMs were a big step in what we can accomplish with RNNs. It's natural to wonder: is there another big step? A common opinion among researchers is: \"Yes! There is a next step and it's attention!\""
+  posted_on: 2026-10-18
+  posted_text: "Chris Olah wrote a much-shared explainer on LSTMs in 2015, walking through each gate with diagrams. At the end he mentions a common opinion among researchers that the next big step is attention: https://colah.github.io/posts/2015-08-Understanding-LSTMs/#conclusion Two years later came \"Attention Is All You Need\" 😎"
+  feedback: "Posted a light edit of variant A: no role parenthetical, shorter ending with emoji."
 - id: weng-llm-agents
   title: LLM Powered Autonomous Agents
   people: [Lilian Weng]
@@ -213,8 +216,12 @@
   era: current
   url: https://www.dwarkesh.com/p/richard-sutton
   verified: true
-  note: "Dwarkesh Podcast; page has a full transcript."
-  status: candidate
+  note: "Dwarkesh Podcast; page has a full transcript. YouTube: https://youtu.be/21EYKqUsPfg"
+  status: picked
+  picked_on: 2026-10-19
+  timestamp: "41:29"
+  quote: "In the old days, it was interesting because things like search and learning were called weak methods because they're just using general principles, they're not using the power that comes from imbuing a system with human knowledge. Those were called strong. I think the weak methods have just totally won."
+  issue: 5
 - id: dwarkesh-karpathy-2025
   title: "Andrej Karpathy — AGI is still a decade away"
   people: [Andrej Karpathy]

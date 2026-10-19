@@ -58,6 +58,10 @@ Real posts, for tone and register. Learn from them, don't copy their structure.
 
 > Jeff Dean (ex-chief-scientist at Google) apparently tried in his undergrad thesis (1990) what's now called model parallel training, to get more out of neural nets. His speedups tapered off because he kept the model the same size: https://www.youtube.com/watch?v=UTTeXZrpMR0&t=386s A chance meeting with Andrew Ng 25 years later brought the idea back and ~led to Google Brain.
 
+2026-10-18, Chris Olah, "Understanding LSTM Networks" (2015). Light edit of draft A: dropped the role parenthetical and replaced the explanatory ending ("dropped recurrence entirely") with a shorter one plus emoji. Martin posted:
+
+> Chris Olah wrote a much-shared explainer on LSTMs in 2015, walking through each gate with diagrams. At the end he mentions a common opinion among researchers that the next big step is attention: https://colah.github.io/posts/2015-08-Understanding-LSTMs/#conclusion Two years later came "Attention Is All You Need" 😎
+
 ## Additions from review rounds
 
 - 2026-10-17: First drafts were too cute and punchy (forced "fun detail", emoji, fragment hooks). Martin posted a plain retelling instead, but that was right for that piece, not a fixed format.
