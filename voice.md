@@ -62,6 +62,16 @@ Real posts, for tone and register. Learn from them, don't copy their structure.
 
 > Chris Olah wrote a much-shared explainer on LSTMs in 2015, walking through each gate with diagrams. At the end he mentions a common opinion among researchers that the next big step is attention: https://colah.github.io/posts/2015-08-Understanding-LSTMs/#conclusion Two years later came "Attention Is All You Need" 😎
 
+2026-10-19, Richard Sutton, Dwarkesh Podcast (2025). Drafts were all about the "weak vs. strong methods" history section; Martin posted his own personal reflection on a different part of the interview, connecting Sutton's claim about imitation to his biology background:
+
+> I'm listening to Richard Sutton (2024 Turing Award) argue against LLMs having intelligence (e.g. "having a goal is the essence of intelligence" and "without a goal, there's no sense of right or wrong or better or worse. So large language models are trying to get by without having a goal or a sense of better or worse. That's just [...] exactly starting in the wrong place.")
+>
+> Later, he also mentions that in learning psychology (including baby humans), there's no imitation. I was confused to hear that, because, from my Biology days, I remember a study where a researcher opens a puzzle box with some pointless extra steps before taking out a treat. Young chimpanzees skip the useless steps, while human kids copy all of them: https://doi.org/10.1007/s10071-004-0239-6 Imitation up to over-imitation
+>
+> (Later in the interview, Sutton does say that humans imitate, but calls it a small thing on top of basic trial-and-error learning. Overall, he seems quite convinced that there's no intelligence in imitation-prediction as current LLMs do it)
+>
+> Here's the full interview: https://youtu.be/21EYKqUsPfg Interesting to listen to
+
 ## Additions from review rounds
 
 - 2026-10-17: First drafts were too cute and punchy (forced "fun detail", emoji, fragment hooks). Martin posted a plain retelling instead, but that was right for that piece, not a fixed format.

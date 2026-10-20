@@ -81,8 +81,13 @@
   date: 2017-10-05
   era: foundational
   url: https://www.youtube.com/watch?v=aircAruvnKk
-  verified: false
-  status: candidate
+  verified: true
+  note: "Title/channel via YouTube oEmbed; date from 3blue1brown.com lesson page (datePublished 2017-10-05)."
+  status: picked
+  picked_on: 2026-10-20
+  timestamp: "11:36"
+  quote: "One thought experiment that is at once fun and kind of horrifying is to imagine sitting down and setting all of these weights and biases by hand, purposefully tweaking the numbers so that the second layer picks up on edges, the third layer picks up on patterns, etc."
+  issue: 6
 - id: krizhevsky-alexnet-paper
   title: ImageNet Classification with Deep Convolutional Neural Networks
   people: [Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton]
@@ -217,11 +222,14 @@
   url: https://www.dwarkesh.com/p/richard-sutton
   verified: true
   note: "Dwarkesh Podcast; page has a full transcript. YouTube: https://youtu.be/21EYKqUsPfg"
-  status: picked
+  status: posted
   picked_on: 2026-10-19
   timestamp: "41:29"
   quote: "In the old days, it was interesting because things like search and learning were called weak methods because they're just using general principles, they're not using the power that comes from imbuing a system with human knowledge. Those were called strong. I think the weak methods have just totally won."
   issue: 5
+  posted_on: 2026-10-19
+  posted_text: "I'm listening to Richard Sutton (2024 Turing Award) argue against LLMs having intelligence (e.g. \"having a goal is the essence of intelligence\" and \"without a goal, there's no sense of right or wrong or better or worse. So large language models are trying to get by without having a goal or a sense of better or worse. That's just [...] exactly starting in the wrong place.\")\n\nLater, he also mentions that in learning psychology (including baby humans), there's no imitation. I was confused to hear that, because, from my Biology days, I remember a study where a researcher opens a puzzle box with some pointless extra steps before taking out a treat. Young chimpanzees skip the useless steps, while human kids copy all of them: https://doi.org/10.1007/s10071-004-0239-6 Imitation up to over-imitation\n\n(Later in the interview, Sutton does say that humans imitate, but calls it a small thing on top of basic trial-and-error learning. Overall, he seems quite convinced that there's no intelligence in imitation-prediction as current LLMs do it)\n\nHere's the full interview: https://youtu.be/21EYKqUsPfg Interesting to listen to"
+  feedback: "Posted own text, none of the drafts: personal reflection from a different part of the interview (goals, imitation), tied to his biology background and an over-imitation study; linked the full interview instead of the deep link."
 - id: dwarkesh-karpathy-2025
   title: "Andrej Karpathy — AGI is still a decade away"
   people: [Andrej Karpathy]
