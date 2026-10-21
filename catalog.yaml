@@ -258,5 +258,9 @@
   era: current
   url: https://www.anthropic.com/research/tracing-thoughts-language-model
   verified: true
-  note: "Summary post for the 'circuit tracing' / 'biology of an LLM' papers on transformer-circuits.pub; check named authors before crediting a person."
-  status: candidate
+  note: "Summary post for the 'circuit tracing' / 'biology of an LLM' papers on transformer-circuits.pub. Post has no byline; biology paper byline: Jack Lindsey (first), ..., Chris Olah, Joshua Batson (last), 27 authors."
+  status: picked
+  picked_on: 2026-10-21
+  timestamp: "#mental-math"
+  quote: "Strikingly, Claude seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training. If you ask how it figured out that 36+59 is 95, it describes the standard algorithm involving carrying the 1."
+  issue: 7
