@@ -120,8 +120,13 @@
   date: 2024-12-08
   era: foundational
   url: https://www.nobelprize.org/prizes/physics/2024/hinton/lecture/
-  verified: false
-  status: candidate
+  verified: true
+  note: "Delivered 8 December 2024, Aula Magna, Stockholm University. Slides PDF: https://www.nobelprize.org/uploads/2024/12/hinton-lecture-1.pdf Video: https://www.youtube.com/watch?v=XDE9DjpcSdI"
+  status: picked
+  picked_on: 2026-10-22
+  timestamp: "Slides PDF #page=16 to #page=26 (slide 26: The legacy of Boltzmann Machines)"
+  quote: "Stacked RBMs were like an enzyme. They helped researchers to make the transition to deep learning, but once this transition was achieved they were no longer needed."
+  issue: 8
 - id: bengio-neural-probabilistic-lm
   title: A Neural Probabilistic Language Model
   people: [Yoshua Bengio, Réjean Ducharme, Pascal Vincent, Christian Jauvin]
