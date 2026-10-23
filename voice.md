@@ -72,6 +72,18 @@ Real posts, for tone and register. Learn from them, don't copy their structure.
 >
 > Here's the full interview: https://youtu.be/21EYKqUsPfg Interesting to listen to
 
+2026-10-21, Anthropic interpretability team, "Tracing the thoughts of a large language model" (2025). Edit of draft C: more, shorter paragraphs; added his own speculative aside as a question ("so that's what you give when a human asks?"); replaced the closing question with "Pretty cool!" plus a playful comparison to people (with ":P"). Martin posted (on 2026-10-23):
+
+> In 2025, Anthropic's interpretability team published a "tour of AI biology", built with a kind of microscope for looking at what happens inside Claude while it answers.
+>
+> For example, what happens internally when Haiku is adding 36+59. They found the model runs a rough estimate and an exact last-digit calculation in parallel, then combines them.
+>
+> However, when asked to explain its work, it describes the standard algorithm with carrying the 1. In their words, Claude "seems to be unaware of the sophisticated "mental math" strategies that it learned during training." And that's just the standard human explanation, so that's what you give when a human asks?
+>
+> The section right after shows a related problem with longer step-by-step reasoning, where the written-out steps sometimes don't match what happened inside: https://www.anthropic.com/research/tracing-thoughts-language-model#mental-math
+>
+> Pretty cool! And fun to compare to how people explain how they came to an action/decision (which also often seems fabricated after the fact :P
+
 ## Additions from review rounds
 
 - 2026-10-17: First drafts were too cute and punchy (forced "fun detail", emoji, fragment hooks). Martin posted a plain retelling instead, but that was right for that piece, not a fixed format.

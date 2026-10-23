@@ -19,8 +19,12 @@
   date: 2023-11-22
   era: current
   url: https://www.youtube.com/watch?v=zjkBMFhNj_g
-  verified: false
-  status: candidate
+  verified: true
+  verified_note: "Title and channel confirmed via YouTube oEmbed; upload date not readable from cloud run."
+  status: picked
+  picked_on: 2026-10-23
+  timestamp: "11:23"
+  quote: "this knowledge is weird and it's kind of one-dimensional"
 - id: sutton-bitter-lesson
   title: The Bitter Lesson
   people: [Richard Sutton]
@@ -264,8 +268,11 @@
   url: https://www.anthropic.com/research/tracing-thoughts-language-model
   verified: true
   note: "Summary post for the 'circuit tracing' / 'biology of an LLM' papers on transformer-circuits.pub. Post has no byline; biology paper byline: Jack Lindsey (first), ..., Chris Olah, Joshua Batson (last), 27 authors."
-  status: picked
+  status: posted
   picked_on: 2026-10-21
   timestamp: "#mental-math"
   quote: "Strikingly, Claude seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training. If you ask how it figured out that 36+59 is 95, it describes the standard algorithm involving carrying the 1."
   issue: 7
+  posted_on: 2026-10-23
+  posted_text: "In 2025, Anthropic's interpretability team published a \"tour of AI biology\", built with a kind of microscope for looking at what happens inside Claude while it answers.\n\nFor example, what happens internally when Haiku is adding 36+59. They found the model runs a rough estimate and an exact last-digit calculation in parallel, then combines them.\n\nHowever, when asked to explain its work, it describes the standard algorithm with carrying the 1. In their words, Claude \"seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training.\" And that's just the standard human explanation, so that's what you give when a human asks?\n\nThe section right after shows a related problem with longer step-by-step reasoning, where the written-out steps sometimes don't match what happened inside: https://www.anthropic.com/research/tracing-thoughts-language-model#mental-math\n\nPretty cool! And fun to compare to how people explain how they came to an action/decision (which also often seems fabricated after the fact :P"
+  feedback: "Posted an edit of variant C: split into more paragraphs, added his own guess (the model gives the standard human explanation because a human asked), ended with 'Pretty cool!' and a playful comparison to people rationalizing after the fact instead of the question."
