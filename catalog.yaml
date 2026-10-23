@@ -25,6 +25,7 @@
   picked_on: 2026-10-23
   timestamp: "11:23"
   quote: "this knowledge is weird and it's kind of one-dimensional"
+  issue: 9
 - id: sutton-bitter-lesson
   title: The Bitter Lesson
   people: [Richard Sutton]
