@@ -146,6 +146,7 @@
   note: "Title, authors and JMLR 3(Feb):1137-1155, 2003 confirmed on the JMLR abstract page; PDF: https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf"
   status: picked
   picked_on: 2026-10-26
+  issue: 10
   timestamp: "Section 1 and 1.1, PDF #page=3 to #page=4 (Fighting the Curse of Dimensionality with Distributed Representations)"
   quote: "having seen the sentence “The cat is walking in the bedroom” in the training corpus should help us generalize to make the sentence “A dog was running in a room” almost as likely, simply because “dog” and “cat” (resp. “the” and “a”, “room” and “bedroom”, etc...) have similar semantic and grammatical roles."
 - id: hochreiter-schmidhuber-lstm-paper
