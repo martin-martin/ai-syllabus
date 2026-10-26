@@ -84,6 +84,12 @@ Real posts, for tone and register. Learn from them, don't copy their structure.
 >
 > Pretty cool! And fun to compare to how people explain how they came to an action/decision (which also often seems fabricated after the fact :P
 
+2026-10-24, Grant Sanderson (3Blue1Brown), "But what is a neural network?" (2017). Drafts quoted the "fun and kind of horrifying" hand-tuning thought experiment; Martin posted a two-liner with no name or summary, just the deep link and a short recommendation:
+
+> Just leaving this here... https://youtu.be/aircAruvnKk?t=694&si=9naSZKDH-n7k60tT
+>
+> It's old, but really good!
+
 ## Additions from review rounds
 
 - 2026-10-17: First drafts were too cute and punchy (forced "fun detail", emoji, fragment hooks). Martin posted a plain retelling instead, but that was right for that piece, not a fixed format.
