@@ -77,8 +77,12 @@
   date: 2024-10-01
   era: current
   url: https://darioamodei.com/machines-of-loving-grace
-  verified: false
-  status: candidate
+  verified: true
+  note: "Title, author and 'October 2024' confirmed on darioamodei.com; exact day not shown on the page. Headings have no anchors, so the deep link uses a text fragment."
+  status: picked
+  picked_on: 2026-10-27
+  timestamp: "Basic assumptions and framework, from \"Economists often talk about\" (#:~:text=Economists%20often%20talk%20about)"
+  quote: "Intelligence may be very powerful, but it isn’t magic fairy dust."
 - id: 3b1b-neural-networks
   title: "But what is a neural network? | Deep learning chapter 1"
   people: [Grant Sanderson (3Blue1Brown)]
@@ -285,3 +289,91 @@
   posted_on: 2026-10-23
   posted_text: "In 2025, Anthropic's interpretability team published a \"tour of AI biology\", built with a kind of microscope for looking at what happens inside Claude while it answers.\n\nFor example, what happens internally when Haiku is adding 36+59. They found the model runs a rough estimate and an exact last-digit calculation in parallel, then combines them.\n\nHowever, when asked to explain its work, it describes the standard algorithm with carrying the 1. In their words, Claude \"seems to be unaware of the sophisticated \"mental math\" strategies that it learned during training.\" And that's just the standard human explanation, so that's what you give when a human asks?\n\nThe section right after shows a related problem with longer step-by-step reasoning, where the written-out steps sometimes don't match what happened inside: https://www.anthropic.com/research/tracing-thoughts-language-model#mental-math\n\nPretty cool! And fun to compare to how people explain how they came to an action/decision (which also often seems fabricated after the fact :P"
   feedback: "Posted an edit of variant C: split into more paragraphs, added his own guess (the model gives the standard human explanation because a human asked), ended with 'Pretty cool!' and a playful comparison to people rationalizing after the fact instead of the question."
+- id: dwarkesh-sutskever-2025
+  title: "Ilya Sutskever — We're moving from the age of scaling to the age of research"
+  people: [Ilya Sutskever]
+  format: podcast
+  date: 2025-11-25
+  era: current
+  url: https://www.dwarkesh.com/p/ilya-sutskever-2
+  verified: true
+  note: "Dwarkesh Podcast; title and datePublished confirmed on the page, which has a transcript."
+  status: candidate
+- id: karpathy-deep-dive-llms
+  title: "Deep Dive into LLMs like ChatGPT"
+  people: [Andrej Karpathy]
+  format: video
+  date: 2025-02-05
+  era: current
+  url: https://www.youtube.com/watch?v=7xTGNNLPyMI
+  verified: true
+  note: "Title and channel confirmed via YouTube oEmbed; date from memory."
+  status: candidate
+- id: kokotajlo-ai-2027
+  title: AI 2027
+  people: [Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean]
+  format: essay
+  date: 2025-04-03
+  era: current
+  url: https://ai-2027.com/
+  verified: true
+  note: "Title, Kokotajlo and 'April 3rd 2025' confirmed on the site; full author list from memory. A forecast scenario, good for a then-vs-now angle in 2027."
+  status: candidate
+- id: 3b1b-transformers
+  title: "Transformers, the tech behind LLMs | Deep Learning Chapter 5"
+  people: [Grant Sanderson (3Blue1Brown)]
+  format: video
+  date: 2024-04-01
+  era: current
+  url: https://www.youtube.com/watch?v=wjZofJX0v4M
+  verified: true
+  note: "Title/channel via YouTube oEmbed; date from 3blue1brown.com/lessons/gpt (datePublished)."
+  status: candidate
+- id: shannon-mathematical-theory-1948
+  title: A Mathematical Theory of Communication
+  people: [Claude Shannon]
+  format: paper
+  date: 1948-07-01
+  era: foundational
+  url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
+  verified: true
+  note: "Free reprint; Bell System Technical Journal 27, July/October 1948 (confirmed in PDF). Section 3 has the word-level n-gram 'approximations to English', an early language model."
+  status: candidate
+- id: mikolov-word2vec
+  title: Efficient Estimation of Word Representations in Vector Space
+  people: [Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean]
+  format: paper
+  date: 2013-01-16
+  era: foundational
+  url: https://arxiv.org/abs/1301.3781
+  verified: true
+  status: candidate
+- id: bahdanau-attention
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  people: [Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio]
+  format: paper
+  date: 2014-09-01
+  era: foundational
+  url: https://arxiv.org/abs/1409.0473
+  verified: true
+  status: candidate
+- id: wei-chain-of-thought
+  title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+  people: [Jason Wei, Denny Zhou]
+  format: paper
+  date: 2022-01-28
+  era: foundational
+  url: https://arxiv.org/abs/2201.11903
+  verified: true
+  note: "First and last author listed; more co-authors on arXiv."
+  status: candidate
+- id: jumper-nobel-lecture-2024
+  title: "Nobel Lecture: AlphaFold"
+  people: [John Jumper]
+  format: lecture
+  date: 2024-12-08
+  era: current
+  url: https://www.nobelprize.org/prizes/chemistry/2024/jumper/lecture/
+  verified: true
+  note: "Delivered 8 December 2024, Aula Magna, Stockholm University (confirmed on page). Lecture title from memory, check the page."
+  status: candidate

@@ -109,3 +109,15 @@
   why: Not a researcher, but the best visual explainer of neural nets and transformers; strong education angle.
   era: current
   channels: [YouTube neural networks series]
+- name: Claude Shannon
+  why: Information theory (1948), including early n-gram "approximations to English"; Dartmouth 1956 co-organizer.
+  era: foundational
+  channels: [Bell System Technical Journal papers]
+- name: Tomas Mikolov
+  why: word2vec (2013) and RNN language models; made word embeddings mainstream.
+  era: foundational
+  channels: [papers]
+- name: Daniel Kokotajlo
+  why: Ex-OpenAI governance researcher; lead author of the "AI 2027" forecast scenario.
+  era: current
+  channels: [ai-2027.com, AI Futures Project blog]
