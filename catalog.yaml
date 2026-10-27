@@ -83,6 +83,7 @@
   picked_on: 2026-10-27
   timestamp: "Basic assumptions and framework, from \"Economists often talk about\" (#:~:text=Economists%20often%20talk%20about)"
   quote: "Intelligence may be very powerful, but it isn’t magic fairy dust."
+  issue: 11
 - id: 3b1b-neural-networks
   title: "But what is a neural network? | Deep learning chapter 1"
   people: [Grant Sanderson (3Blue1Brown)]
