@@ -339,7 +339,10 @@
   url: https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf
   verified: true
   note: "Free reprint; Bell System Technical Journal 27, July/October 1948 (confirmed in PDF). Section 3 has the word-level n-gram 'approximations to English', an early language model."
-  status: candidate
+  status: picked
+  picked_on: 2026-10-28
+  timestamp: "Section 3, The Series of Approximations to English (PDF #page=7, method on p. 8)"
+  quote: "To construct (3) for example, one opens a book at random and selects a letter at random on the page. This letter is recorded. The book is then opened to another page and one reads until this letter is encountered. The succeeding letter is then recorded."
 - id: mikolov-word2vec
   title: Efficient Estimation of Word Representations in Vector Space
   people: [Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean]
