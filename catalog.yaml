@@ -343,6 +343,7 @@
   picked_on: 2026-10-28
   timestamp: "Section 3, The Series of Approximations to English (PDF #page=7, method on p. 8)"
   quote: "To construct (3) for example, one opens a book at random and selects a letter at random on the page. This letter is recorded. The book is then opened to another page and one reads until this letter is encountered. The succeeding letter is then recorded."
+  issue: 12
 - id: mikolov-word2vec
   title: Efficient Estimation of Word Representations in Vector Space
   people: [Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean]
