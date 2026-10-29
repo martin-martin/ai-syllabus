@@ -303,7 +303,7 @@
   picked_on: 2026-10-29
   timestamp: "06:08"
   quote: "The models are much more like the first student, but even more."
-  issue: null
+  issue: 13
 - id: karpathy-deep-dive-llms
   title: "Deep Dive into LLMs like ChatGPT"
   people: [Andrej Karpathy]
