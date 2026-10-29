@@ -298,8 +298,12 @@
   era: current
   url: https://www.dwarkesh.com/p/ilya-sutskever-2
   verified: true
-  note: "Dwarkesh Podcast; title and datePublished confirmed on the page, which has a transcript."
-  status: candidate
+  note: "Dwarkesh Podcast; title and datePublished confirmed on the page, which has a transcript with timestamps. YouTube: https://youtu.be/aR20FWCCjAs (title/channel via oEmbed)."
+  status: picked
+  picked_on: 2026-10-29
+  timestamp: "06:08"
+  quote: "The models are much more like the first student, but even more."
+  issue: null
 - id: karpathy-deep-dive-llms
   title: "Deep Dive into LLMs like ChatGPT"
   people: [Andrej Karpathy]
