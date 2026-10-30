@@ -39,6 +39,7 @@
   picked_on: 2026-10-30
   timestamp: "chess paragraph (#:~:text=In%20computer%20chess)"
   quote: "When a simpler, search-based approach with special hardware and software proved vastly more effective, these human-knowledge-based chess researchers were not good losers."
+  issue: 14
 - id: vaswani-attention-paper
   title: Attention Is All You Need
   people: [Ashish Vaswani, Noam Shazeer]
