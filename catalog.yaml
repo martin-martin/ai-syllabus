@@ -318,7 +318,11 @@
   url: https://www.youtube.com/watch?v=7xTGNNLPyMI
   verified: true
   note: "Title and channel confirmed via YouTube oEmbed; date from memory."
-  status: candidate
+  verified_note: "oEmbed re-checked 2026-11-02 (title, channel Andrej Karpathy); upload date not readable from cloud run."
+  status: picked
+  picked_on: 2026-11-02
+  timestamp: "1:47:18"
+  quote: "these are not for you these are for the model"
 - id: kokotajlo-ai-2027
   title: AI 2027
   people: [Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean]
