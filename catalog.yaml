@@ -323,6 +323,7 @@
   picked_on: 2026-11-02
   timestamp: "1:47:18"
   quote: "these are not for you these are for the model"
+  issue: 15
 - id: kokotajlo-ai-2027
   title: AI 2027
   people: [Daniel Kokotajlo, Scott Alexander, Thomas Larsen, Eli Lifland, Romeo Dean]
