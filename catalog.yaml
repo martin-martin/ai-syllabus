@@ -165,9 +165,13 @@
   format: paper
   date: 1997-11-15
   era: foundational
-  url: https://www.bioinf.jku.at/publications/older/2604.pdf
-  verified: false
-  status: candidate
+  url: http://www.bioinf.jku.at/publications/older/2604.pdf
+  verified: true
+  verified_note: "PDF fetched 2026-11-03 (https cert expired, http works); title, authors and Neural Computation 9(8):1735-1780, 1997 confirmed."
+  status: picked
+  picked_on: 2026-11-03
+  timestamp: "p. 10, Section 5, 'Guessing can outperform many long time lag algorithms' (#page=10)"
+  quote: "Of course, this does not mean that guessing is a good algorithm. It just means that some previously used problems are not extremely appropriate to demonstrate the quality of previously proposed algorithms."
 - id: sutskever-neurips-2024-tot
   title: "Sequence to sequence learning with neural networks: what a decade (NeurIPS 2024 Test of Time talk)"
   people: [Ilya Sutskever]
