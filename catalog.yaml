@@ -172,6 +172,7 @@
   picked_on: 2026-11-03
   timestamp: "p. 10, Section 5, 'Guessing can outperform many long time lag algorithms' (#page=10)"
   quote: "Of course, this does not mean that guessing is a good algorithm. It just means that some previously used problems are not extremely appropriate to demonstrate the quality of previously proposed algorithms."
+  issue: 16
 - id: sutskever-neurips-2024-tot
   title: "Sequence to sequence learning with neural networks: what a decade (NeurIPS 2024 Test of Time talk)"
   people: [Ilya Sutskever]
