@@ -79,6 +79,7 @@
   picked_on: 2026-11-04
   timestamp: "Challenges section (#challenges)"
   quote: "However, the reliability of model outputs is questionable, as LLMs may make formatting errors and occasionally exhibit rebellious behavior (e.g. refuse to follow an instruction). Consequently, much of the agent demo code focuses on parsing model output."
+  issue: 17
 - id: amodei-machines-of-loving-grace
   title: "Machines of Loving Grace"
   people: [Dario Amodei]
