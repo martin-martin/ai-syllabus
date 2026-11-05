@@ -232,7 +232,11 @@
   era: foundational
   url: http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf
   verified: true
-  status: candidate
+  verified_note: "PDF fetched 2026-11-05; title, four authors and date (August 31, 1955) confirmed on title page. Later retypeset version on McCarthy's Stanford site."
+  status: picked
+  picked_on: 2026-11-05
+  timestamp: "p. 2, opening paragraph and seven aspects (#page=2); Rochester randomness section (#page=8)"
+  quote: "We think that a significant advance can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer."
 - id: karpathy-rnn-effectiveness
   title: The Unreasonable Effectiveness of Recurrent Neural Networks
   people: [Andrej Karpathy]
