@@ -402,12 +402,15 @@
   note: "First and last author listed; more co-authors on arXiv."
   status: candidate
 - id: jumper-nobel-lecture-2024
-  title: "Nobel Lecture: AlphaFold"
+  title: "Nobel Lecture: Building chemical and biological intuition into protein structure prediction"
   people: [John Jumper]
   format: lecture
   date: 2024-12-08
   era: current
   url: https://www.nobelprize.org/prizes/chemistry/2024/jumper/lecture/
   verified: true
-  note: "Delivered 8 December 2024, Aula Magna, Stockholm University (confirmed on page). Lecture title from memory, check the page."
-  status: candidate
+  note: "Delivered 8 December 2024, Aula Magna, Stockholm University (confirmed on page). Title confirmed on page and PDF. Slides PDF: https://www.nobelprize.org/uploads/2024/12/jumper-lecture.pdf Video: https://www.youtube.com/watch?v=qX1aYUckvnY"
+  status: picked
+  picked_on: 2026-11-06
+  timestamp: "Slides PDF #page=6 to #page=8, plus #page=12 (Which parts mattered? All of it)"
+  quote: "Almost immediately better than our earlier work because the neural network operations were meaningfully aligned to the scientific problem"
