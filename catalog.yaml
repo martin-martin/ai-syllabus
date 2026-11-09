@@ -381,7 +381,12 @@
   era: foundational
   url: https://arxiv.org/abs/1301.3781
   verified: true
-  status: candidate
+  verified_note: "arXiv page fetched 2026-11-09; title, all four authors and 16 Jan 2013 (v3 7 Sep 2013) confirmed."
+  status: picked
+  picked_on: 2026-11-09
+  timestamp: "PDF #page=10 (Section 5, Table 8); setup in Section 4, p. 5"
+  quote: "As it can be seen, accuracy is quite good, although there is clearly a lot of room for further improvements"
+  issue: ISSUE
 - id: bahdanau-attention
   title: Neural Machine Translation by Jointly Learning to Align and Translate
   people: [Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio]
@@ -415,3 +420,50 @@
   timestamp: "Slides PDF #page=6 to #page=8, plus #page=12 (Which parts mattered? All of it)"
   quote: "Almost immediately better than our earlier work because the neural network operations were meaningfully aligned to the scientific problem"
   issue: 19
+- id: deepseek-r1-paper
+  title: "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+  people: [DeepSeek-AI (Daya Guo et al.)]
+  format: paper
+  date: 2025-01-22
+  era: current
+  url: https://arxiv.org/abs/2501.12948
+  verified: true
+  status: candidate
+- id: anthropic-building-effective-agents
+  title: Building effective agents
+  people: [Erik Schluntz, Barry Zhang]
+  format: blog
+  date: 2024-12-19
+  era: current
+  url: https://www.anthropic.com/research/building-effective-agents
+  verified: true
+  note: "Page title and Dec 19, 2024 confirmed; Barry Zhang on page, Erik Schluntz from memory."
+  status: candidate
+- id: he-resnet-paper
+  title: Deep Residual Learning for Image Recognition
+  people: [Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun]
+  format: paper
+  date: 2015-12-10
+  era: foundational
+  url: https://arxiv.org/abs/1512.03385
+  verified: true
+  status: candidate
+- id: mnih-atari-dqn
+  title: Playing Atari with Deep Reinforcement Learning
+  people: [Volodymyr Mnih, Koray Kavukcuoglu, David Silver, et al.]
+  format: paper
+  date: 2013-12-19
+  era: foundational
+  url: https://arxiv.org/abs/1312.5602
+  verified: true
+  status: candidate
+- id: olah-zoom-in-circuits
+  title: "Zoom In: An Introduction to Circuits"
+  people: [Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, Shan Carter]
+  format: essay
+  date: 2020-03-10
+  era: foundational
+  url: https://distill.pub/2020/circuits/zoom-in/
+  verified: true
+  note: "Distill article; title, authors and datePublished confirmed on page."
+  status: candidate
