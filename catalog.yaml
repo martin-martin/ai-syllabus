@@ -288,6 +288,7 @@
   picked_on: 2026-11-10
   timestamp: "40:47 (chapter 'RL is terrible', 40:05), deep link &t=2447s"
   quote: "Reinforcement learning is terrible. It just so happens that everything that we had before it is much worse because previously we were just imitating people, so it has all these issues."
+  issue: 21
 - id: silver-sutton-era-of-experience
   title: Welcome to the Era of Experience
   people: [David Silver, Richard Sutton]
