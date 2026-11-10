@@ -195,7 +195,7 @@
   era: current
   url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
   verified: false
-  note: "YC AI Startup School keynote; YouTube ID from memory, verify."
+  note: "YC AI Startup School keynote; YouTube ID from memory, verify. 2026-11-10: prefetched transcript looks like an auto-translated dub (e.g. 'Andriy Karpaty', 'uneven intelligence'), not usable for verbatim quotes; refetch original English captions."
   status: candidate
 - id: feifei-li-words-to-worlds
   title: "From Words to Worlds: Spatial Intelligence is AI's Next Frontier"
@@ -280,9 +280,14 @@
   date: 2025-10-17
   era: current
   url: https://www.dwarkesh.com/p/andrej-karpathy
+  video_url: https://www.youtube.com/watch?v=lXUZvyajciY
   verified: true
+  verified_note: "Page fetched 2026-11-10; title, guest and publish date 2025-10-17 confirmed. YouTube oEmbed: Dwarkesh Patel channel, title 'Andrej Karpathy — “We’re summoning ghosts, not building animals”'."
   note: "Dwarkesh Podcast; page has a full transcript."
-  status: candidate
+  status: picked
+  picked_on: 2026-11-10
+  timestamp: "40:47 (chapter 'RL is terrible', 40:05), deep link &t=2447s"
+  quote: "Reinforcement learning is terrible. It just so happens that everything that we had before it is much worse because previously we were just imitating people, so it has all these issues."
 - id: silver-sutton-era-of-experience
   title: Welcome to the Era of Experience
   people: [David Silver, Richard Sutton]
