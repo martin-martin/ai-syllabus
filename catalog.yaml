@@ -477,3 +477,4 @@
   picked_on: 2026-11-11
   timestamp: "section Circuit 3: Cars in Superposition (#claim-2-superposition)"
   quote: "But what we’re seeing here is that the model had a “pure neuron” and then mixed it up with other features. We call this phenomenon superposition."
+  issue: 22
