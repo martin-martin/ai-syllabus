@@ -472,4 +472,8 @@
   url: https://distill.pub/2020/circuits/zoom-in/
   verified: true
   note: "Distill article; title, authors and datePublished confirmed on page."
-  status: candidate
+  verified_note: "Page re-fetched 2026-11-11; title, authors (OpenAI), date March 10, 2020 and #claim-2-superposition anchor confirmed."
+  status: picked
+  picked_on: 2026-11-11
+  timestamp: "section Circuit 3: Cars in Superposition (#claim-2-superposition)"
+  quote: "But what we’re seeing here is that the model had a “pure neuron” and then mixed it up with other features. We call this phenomenon superposition."
