@@ -462,6 +462,7 @@
   picked_on: 2026-11-13
   timestamp: "Section 1 Introduction, pages 1-2 (PDF)"
   quote: "There exists a solution by construction to the deeper model: the added layers are identity mapping, and the other layers are copied from the learned shallower model."
+  issue: 24
 - id: mnih-atari-dqn
   title: Playing Atari with Deep Reinforcement Learning
   people: [Volodymyr Mnih, Koray Kavukcuoglu, David Silver, et al.]
