@@ -457,7 +457,11 @@
   era: foundational
   url: https://arxiv.org/abs/1512.03385
   verified: true
-  status: candidate
+  verified_note: "arXiv page and PDF fetched 2026-11-13; title, authors, Microsoft Research and v1 date (Dec 10, 2015) confirmed."
+  status: picked
+  picked_on: 2026-11-13
+  timestamp: "Section 1 Introduction, pages 1-2 (PDF)"
+  quote: "There exists a solution by construction to the deeper model: the added layers are identity mapping, and the other layers are copied from the learned shallower model."
 - id: mnih-atari-dqn
   title: Playing Atari with Deep Reinforcement Learning
   people: [Volodymyr Mnih, Koray Kavukcuoglu, David Silver, et al.]
@@ -482,3 +486,63 @@
   timestamp: "section Circuit 3: Cars in Superposition (#claim-2-superposition)"
   quote: "But what we’re seeing here is that the model had a “pure neuron” and then mixed it up with other features. We call this phenomenon superposition."
   issue: 22
+- id: srivastava-dropout
+  title: "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
+  people: [Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov]
+  format: paper
+  date: 2014-06-01
+  era: foundational
+  url: https://jmlr.org/papers/v15/srivastava14a.html
+  verified: true
+  verified_note: "JMLR page fetched 2026-11-13; title confirmed (JMLR vol. 15, 2014)."
+  status: candidate
+- id: elhage-toy-models-superposition
+  title: Toy Models of Superposition
+  people: [Nelson Elhage, Chris Olah, et al.]
+  format: paper
+  date: 2022-09-14
+  era: foundational
+  url: https://transformer-circuits.pub/2022/toy_model/index.html
+  verified: true
+  verified_note: "Page fetched 2026-11-13; title, authors (Elhage, Olah) and date (Sept 14, 2022) confirmed."
+  status: candidate
+- id: alammar-illustrated-transformer
+  title: The Illustrated Transformer
+  people: [Jay Alammar]
+  format: blog
+  date: 2018-06-27
+  era: foundational
+  url: https://jalammar.github.io/illustrated-transformer/
+  verified: true
+  verified_note: "Page fetched 2026-11-13; title, author and date (June 27, 2018) confirmed."
+  status: candidate
+- id: weng-why-we-think
+  title: Why We Think
+  people: [Lilian Weng]
+  format: blog
+  date: 2025-05-01
+  era: current
+  url: https://lilianweng.github.io/posts/2025-05-01-thinking/
+  verified: true
+  verified_note: "Page fetched 2026-11-13; title and date (2025-05-01) confirmed."
+  status: candidate
+- id: anthropic-introspection-2025
+  title: Emergent Introspective Awareness in Large Language Models
+  people: [Jack Lindsey]
+  format: paper
+  date: 2025-10-29
+  era: current
+  url: https://transformer-circuits.pub/2025/introspection/index.html
+  verified: true
+  verified_note: "Page fetched 2026-11-13; title, author (Jack Lindsey, Anthropic) and date (October 29, 2025) confirmed."
+  status: candidate
+- id: anthropic-agentic-misalignment
+  title: "Agentic misalignment: LLMs as insider threats"
+  people: [Aengus Lynch, et al. (Anthropic)]
+  format: blog
+  date: 2025-06-20
+  era: current
+  url: https://www.anthropic.com/research/agentic-misalignment
+  verified: true
+  verified_note: "Page fetched 2026-11-13; page title \"Agentic misalignment: LLMs as insider threats\", author Aengus Lynch and date (2025-06-20) confirmed."
+  status: candidate

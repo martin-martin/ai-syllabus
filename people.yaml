@@ -121,3 +121,11 @@
   why: Ex-OpenAI governance researcher; lead author of the "AI 2027" forecast scenario.
   era: current
   channels: [ai-2027.com, AI Futures Project blog]
+- name: Jay Alammar
+  why: Author of "The Illustrated Transformer" and other visual explainers of how transformers work.
+  era: both
+  channels: [jalammar.github.io]
+- name: Jack Lindsey
+  why: Anthropic interpretability researcher; author of the 2025 paper on emergent introspective awareness in LLMs.
+  era: current
+  channels: [transformer-circuits.pub]
