@@ -448,7 +448,12 @@
   url: https://www.anthropic.com/research/building-effective-agents
   verified: true
   note: "Page title and Dec 19, 2024 confirmed; Barry Zhang on page, Erik Schluntz from memory."
-  status: candidate
+  verified_note: "Page fetched 2026-11-16; title, Dec 19, 2024 and byline 'Erik S. and Barry Zhang' confirmed. Page edited since (note on top, newer model names)."
+  status: picked
+  picked_on: 2026-11-16
+  timestamp: "Appendix 2 (#appendix-2-prompt-engineering-your-tools)"
+  quote: "While building our agent for SWE-bench, we actually spent more time optimizing our tools than the overall prompt."
+  issue: 25
 - id: he-resnet-paper
   title: Deep Residual Learning for Image Recognition
   people: [Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun]
