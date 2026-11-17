@@ -476,7 +476,12 @@
   era: foundational
   url: https://arxiv.org/abs/1312.5602
   verified: true
-  status: candidate
+  verified_note: "arXiv abs page fetched 2026-11-17; title, authors (Mnih, Kavukcuoglu, Silver, Graves, Antonoglou, Wierstra, Riedmiller) and date (Dec 19, 2013; NIPS Deep Learning Workshop 2013) confirmed."
+  status: picked
+  picked_on: 2026-11-17
+  timestamp: "Section 5, page 6 (https://arxiv.org/pdf/1312.5602#page=6)"
+  quote: "We use k = 4 for all games except Space Invaders where we noticed that using k = 4 makes the lasers invisible because of the period at which they blink. We used k = 3 to make the lasers visible and this change was the only difference in hyperparameter values between any of the games."
+  issue: 26
 - id: olah-zoom-in-circuits
   title: "Zoom In: An Introduction to Circuits"
   people: [Chris Olah, Nick Cammarata, Ludwig Schubert, Gabriel Goh, Michael Petrov, Shan Carter]
