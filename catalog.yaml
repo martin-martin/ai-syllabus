@@ -354,7 +354,12 @@
   url: https://ai-2027.com/
   verified: true
   note: "Title, Kokotajlo and 'April 3rd 2025' confirmed on the site; full author list from memory. A forecast scenario, good for a then-vs-now angle in 2027."
-  status: candidate
+  verified_note: "Page fetched 2026-11-18; title, date (April 3rd 2025) and all five authors confirmed on the page; #late-2026-ai-takes-some-jobs anchor present in HTML."
+  status: picked
+  picked_on: 2026-11-18
+  timestamp: "section Late 2026: AI Takes Some Jobs (https://ai-2027.com/#late-2026-ai-takes-some-jobs)"
+  quote: "The job market for junior software engineers is in turmoil: the AIs can do everything taught by a CS degree, but people who know how to manage and quality-control teams of AIs are making a killing."
+  issue: 27
 - id: 3b1b-transformers
   title: "Transformers, the tech behind LLMs | Deep Learning Chapter 5"
   people: [Grant Sanderson (3Blue1Brown)]
