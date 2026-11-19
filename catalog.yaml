@@ -246,7 +246,11 @@
   era: foundational
   url: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
   verified: true
-  status: candidate
+  verified_note: "Page fetched 2026-11-19; title, author (Andrej Karpathy) and date (May 21, 2015) confirmed; #source-code anchor present."
+  status: picked
+  picked_on: 2026-11-19
+  timestamp: "section Source Code, 'Brief digression' on frameworks (#source-code)"
+  quote: "An entirely separate code base in a scripting language (ideally Python) that operates over Tensors and implements all Deep Learning stuff (forward/backward, computation graphs, etc)"
 - id: kaplan-scaling-laws
   title: Scaling Laws for Neural Language Models
   people: [Jared Kaplan, Sam McCandlish, Dario Amodei]
