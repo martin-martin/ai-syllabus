@@ -251,6 +251,7 @@
   picked_on: 2026-11-19
   timestamp: "section Source Code, 'Brief digression' on frameworks (#source-code)"
   quote: "An entirely separate code base in a scripting language (ideally Python) that operates over Tensors and implements all Deep Learning stuff (forward/backward, computation graphs, etc)"
+  issue: 28
 - id: kaplan-scaling-laws
   title: Scaling Laws for Neural Language Models
   people: [Jared Kaplan, Sam McCandlish, Dario Amodei]
