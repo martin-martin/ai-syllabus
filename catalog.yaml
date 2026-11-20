@@ -453,6 +453,7 @@
   picked_on: 2026-11-20
   timestamp: "section 2.2.4 + Table 3 (#page=8)"
   quote: "Wait, wait. Wait. That's an aha moment I can flag here."
+  issue: 29
 - id: anthropic-building-effective-agents
   title: Building effective agents
   people: [Erik Schluntz, Barry Zhang]
