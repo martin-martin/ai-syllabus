@@ -129,3 +129,19 @@
   why: Anthropic interpretability researcher; author of the 2025 paper on emergent introspective awareness in LLMs.
   era: current
   channels: [transformer-circuits.pub]
+- name: Ian Goodfellow
+  why: Inventor of generative adversarial networks (2014) and co-author of the "Deep Learning" textbook.
+  era: foundational
+  channels: [arXiv]
+- name: Julian Schrittwieser
+  why: Anthropic researcher, previously at DeepMind on AlphaGo, AlphaZero and MuZero; writes about AI progress.
+  era: current
+  channels: [julian.ac]
+- name: Sholto Douglas
+  why: Anthropic researcher working on scaling RL for LLMs; frequent Dwarkesh Podcast guest.
+  era: current
+  channels: [Dwarkesh Podcast]
+- name: Trenton Bricken
+  why: Anthropic interpretability researcher; frequent Dwarkesh Podcast guest.
+  era: current
+  channels: [Dwarkesh Podcast]

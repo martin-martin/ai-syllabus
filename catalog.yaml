@@ -540,8 +540,11 @@
   era: foundational
   url: https://jalammar.github.io/illustrated-transformer/
   verified: true
-  verified_note: "Page fetched 2026-11-13; title, author and date (June 27, 2018) confirmed."
-  status: candidate
+  verified_note: "Page fetched 2026-11-13 and 2026-11-23; title, author and date (June 27, 2018) confirmed."
+  status: picked
+  picked_on: 2026-11-23
+  timestamp: "section Self-Attention at a High Level (#self-attention-at-a-high-level)"
+  quote: "Don’t be fooled by me throwing around the word “self-attention” like it’s a concept everyone should be familiar with. I had personally never came across the concept until reading the Attention is All You Need paper."
 - id: weng-why-we-think
   title: Why We Think
   people: [Lilian Weng]
@@ -571,4 +574,64 @@
   url: https://www.anthropic.com/research/agentic-misalignment
   verified: true
   verified_note: "Page fetched 2026-11-13; page title \"Agentic misalignment: LLMs as insider threats\", author Aengus Lynch and date (2025-06-20) confirmed."
+  status: candidate
+- id: sutskever-seq2seq
+  title: Sequence to Sequence Learning with Neural Networks
+  people: [Ilya Sutskever, Oriol Vinyals, Quoc V. Le]
+  format: paper
+  date: 2014-09-10
+  era: foundational
+  url: https://arxiv.org/abs/1409.3215
+  verified: false
+  verified_note: "arXiv page fetched 2026-11-23; title confirmed. Authors and date to confirm when picked."
+  status: candidate
+- id: goodfellow-gans
+  title: Generative Adversarial Networks
+  people: [Ian Goodfellow, et al.]
+  format: paper
+  date: 2014-06-10
+  era: foundational
+  url: https://arxiv.org/abs/1406.2661
+  verified: false
+  verified_note: "arXiv page fetched 2026-11-23; title confirmed. Authors and date to confirm when picked."
+  status: candidate
+- id: brown-gpt3-few-shot
+  title: Language Models are Few-Shot Learners
+  people: [Tom B. Brown, et al. (OpenAI)]
+  format: paper
+  date: 2020-05-28
+  era: foundational
+  url: https://arxiv.org/abs/2005.14165
+  verified: false
+  verified_note: "arXiv page fetched 2026-11-23; title confirmed. Authors and date to confirm when picked."
+  status: candidate
+- id: hassabis-nobel-lecture-2024
+  title: "Demis Hassabis, Nobel Prize lecture (Chemistry 2024)"
+  people: [Demis Hassabis]
+  format: talk
+  date: 2024-12-08
+  era: current
+  url: https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/
+  verified: false
+  verified_note: "Page fetched 2026-11-23; page title confirmed. Lecture date and transcript/PDF availability to check when picked."
+  status: candidate
+- id: schrittwieser-failing-exponential
+  title: "Failing to Understand the Exponential, Again"
+  people: [Julian Schrittwieser]
+  format: blog
+  date: 2025-09-27
+  era: current
+  url: https://www.julian.ac/blog/2025/09/27/failing-to-understand-the-exponential-again/
+  verified: false
+  verified_note: "Page fetched 2026-11-23; title confirmed, date from URL. Author confirmation pending."
+  status: candidate
+- id: dwarkesh-sholto-trenton-2025
+  title: "How Does Claude 4 Think? (Sholto Douglas & Trenton Bricken)"
+  people: [Sholto Douglas, Trenton Bricken, Dwarkesh Patel]
+  format: podcast
+  date: 2025-05-22
+  era: current
+  url: https://www.dwarkesh.com/p/sholto-trenton-2
+  verified: false
+  verified_note: "Page fetched 2026-11-23; title confirmed, date 2025-05-22 from page metadata. Transcript on page to check when picked."
   status: candidate
