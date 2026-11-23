@@ -545,6 +545,7 @@
   picked_on: 2026-11-23
   timestamp: "section Self-Attention at a High Level (#self-attention-at-a-high-level)"
   quote: "Don’t be fooled by me throwing around the word “self-attention” like it’s a concept everyone should be familiar with. I had personally never came across the concept until reading the Attention is All You Need paper."
+  issue: 30
 - id: weng-why-we-think
   title: Why We Think
   people: [Lilian Weng]
