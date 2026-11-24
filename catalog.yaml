@@ -627,12 +627,16 @@
   verified_note: "Page fetched 2026-11-23; title confirmed, date from URL. Author confirmation pending."
   status: candidate
 - id: dwarkesh-sholto-trenton-2025
-  title: "How Does Claude 4 Think? (Sholto Douglas & Trenton Bricken)"
+  title: "Is RL + LLMs enough for AGI? (Sholto Douglas & Trenton Bricken)"
   people: [Sholto Douglas, Trenton Bricken, Dwarkesh Patel]
   format: podcast
   date: 2025-05-22
   era: current
   url: https://www.dwarkesh.com/p/sholto-trenton-2
-  verified: false
-  verified_note: "Page fetched 2026-11-23; title confirmed, date 2025-05-22 from page metadata. Transcript on page to check when picked."
-  status: candidate
+  video_url: https://youtu.be/64lXQP6cs5M
+  verified: true
+  verified_note: "Page fetched 2026-11-24; headline 'Is RL + LLMs enough for AGI?' (browser title still 'How Does Claude 4 Think?'), Dwarkesh Patel, May 22, 2025. YouTube oEmbed confirms video 64lXQP6cs5M. Full transcript on page."
+  status: picked
+  picked_on: 2026-11-24
+  timestamp: "00:31:59 (chapter 'Model self-awareness', https://youtu.be/64lXQP6cs5M?t=1919)"
+  quote: "The evil behavior was basically that this model was trained to believe that it was misaligned."
