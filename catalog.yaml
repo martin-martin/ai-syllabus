@@ -525,6 +525,7 @@
   picked_on: 2026-11-25
   timestamp: "section 2 Motivation (PDF #page=4)"
   quote: "Since a gene cannot rely on a large set of partners to be present at all times, it must learn to do something useful on its own or in collaboration with a small number of other genes."
+  issue: 32
 - id: elhage-toy-models-superposition
   title: Toy Models of Superposition
   people: [Nelson Elhage, Chris Olah, et al.]
