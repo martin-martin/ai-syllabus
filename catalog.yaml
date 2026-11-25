@@ -520,8 +520,11 @@
   era: foundational
   url: https://jmlr.org/papers/v15/srivastava14a.html
   verified: true
-  verified_note: "JMLR page fetched 2026-11-13; title confirmed (JMLR vol. 15, 2014)."
-  status: candidate
+  verified_note: "JMLR page and PDF fetched 2026-11-25; title, authors and venue (JMLR 15, 2014, pp. 1929-1958, published 6/14) confirmed."
+  status: picked
+  picked_on: 2026-11-25
+  timestamp: "section 2 Motivation (PDF #page=4)"
+  quote: "Since a gene cannot rely on a large set of partners to be present at all times, it must learn to do something useful on its own or in collaboration with a small number of other genes."
 - id: elhage-toy-models-superposition
   title: Toy Models of Superposition
   people: [Nelson Elhage, Chris Olah, et al.]
