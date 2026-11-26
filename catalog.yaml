@@ -611,15 +611,19 @@
   verified_note: "arXiv page fetched 2026-11-23; title confirmed. Authors and date to confirm when picked."
   status: candidate
 - id: hassabis-nobel-lecture-2024
-  title: "Demis Hassabis, Nobel Prize lecture (Chemistry 2024)"
+  title: "Nobel Lecture: Accelerating scientific discovery with AI"
   people: [Demis Hassabis]
   format: talk
   date: 2024-12-08
   era: current
   url: https://www.nobelprize.org/prizes/chemistry/2024/hassabis/lecture/
-  verified: false
-  verified_note: "Page fetched 2026-11-23; page title confirmed. Lecture date and transcript/PDF availability to check when picked."
-  status: candidate
+  video_url: https://www.youtube.com/watch?v=YtPaZsasmNA
+  verified: true
+  verified_note: "Page and slides PDF fetched 2026-11-26: delivered 8 December 2024, Aula Magna, Stockholm University; PDF title 'Accelerating scientific discovery with AI'. Slides PDF: https://www.nobelprize.org/uploads/2024/12/hassabis-lecture.pdf Video confirmed via oEmbed (no transcript prefetched yet)."
+  status: picked
+  picked_on: 2026-11-26
+  timestamp: "Slides PDF #page=19 to #page=23 (Making search tractable; What are the limits of classical systems?)"
+  quote: "Any pattern that can be generated or found in nature can be efficiently discovered and modelled by a classical learning algorithm"
 - id: schrittwieser-failing-exponential
   title: "Failing to Understand the Exponential, Again"
   people: [Julian Schrittwieser]
