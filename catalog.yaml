@@ -624,6 +624,7 @@
   picked_on: 2026-11-26
   timestamp: "Slides PDF #page=19 to #page=23 (Making search tractable; What are the limits of classical systems?)"
   quote: "Any pattern that can be generated or found in nature can be efficiently discovered and modelled by a classical learning algorithm"
+  issue: 33
 - id: schrittwieser-failing-exponential
   title: "Failing to Understand the Exponential, Again"
   people: [Julian Schrittwieser]
