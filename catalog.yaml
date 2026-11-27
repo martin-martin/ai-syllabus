@@ -603,6 +603,7 @@
   picked_on: 2026-11-27
   timestamp: "section 1 Introduction, p. 1 (#page=1); bonus section 6, p. 7 (#page=7)"
   quote: "The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency."
+  issue: 34
 - id: brown-gpt3-few-shot
   title: Language Models are Few-Shot Learners
   people: [Tom B. Brown, et al. (OpenAI)]
