@@ -591,15 +591,18 @@
   verified_note: "arXiv page fetched 2026-11-23; title confirmed. Authors and date to confirm when picked."
   status: candidate
 - id: goodfellow-gans
-  title: Generative Adversarial Networks
-  people: [Ian Goodfellow, et al.]
+  title: Generative Adversarial Nets
+  people: [Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio]
   format: paper
   date: 2014-06-10
   era: foundational
   url: https://arxiv.org/abs/1406.2661
-  verified: false
-  verified_note: "arXiv page fetched 2026-11-23; title confirmed. Authors and date to confirm when picked."
-  status: candidate
+  verified: true
+  verified_note: "arXiv page and PDF fetched 2026-11-27; authors (Université de Montréal) and submission date (10 Jun 2014) confirmed. arXiv listing title is 'Generative Adversarial Networks', PDF title 'Generative Adversarial Nets'."
+  status: picked
+  picked_on: 2026-11-27
+  timestamp: "section 1 Introduction, p. 1 (#page=1); bonus section 6, p. 7 (#page=7)"
+  quote: "The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency."
 - id: brown-gpt3-few-shot
   title: Language Models are Few-Shot Learners
   people: [Tom B. Brown, et al. (OpenAI)]
